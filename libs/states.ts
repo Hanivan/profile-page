@@ -1,0 +1,15 @@
+export const githubUserInfo = {
+    avatar_url: "",
+    bio: "",
+    blog: "",
+    company: "",
+    email: "",
+    followers: 0,
+    following: 0,
+    html_url: "",
+    name: "",
+    login: "",
+    repos_url: "",
+    public_repos: 0,
+    location: "",
+};
