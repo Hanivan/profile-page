@@ -20,6 +20,7 @@ const GithubInfo: NextPage<githubProps> = ({ data, isLoading }) => {
                 className="text-xl font-bold hover:text-indigo-600 active:text-indigo-600 transition"
                 href={data.html_url}
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 {data.name}
               </a>
