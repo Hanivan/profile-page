@@ -8,7 +8,7 @@ const About: NextPage = () => {
   const [dark, setDark] = useState(false);
 
   useEffect(() => {
-    timeInHour > 6 && timeInHour < 18 ? setDark(true) : setDark(false);
+    timeInHour > 6 && timeInHour < 18 ? setDark(false) : setDark(true);
   }, []);
   return (
     <div

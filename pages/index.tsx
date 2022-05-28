@@ -19,7 +19,7 @@ const Home: NextPage = () => {
         setData(data);
         setLoading(false);
       });
-    timeInHour > 6 && timeInHour < 18 ? setDark(true) : setDark(false);
+    timeInHour > 6 && timeInHour < 18 ? setDark(false) : setDark(true);
   }, []);
 
   return (

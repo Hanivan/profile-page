@@ -25,7 +25,7 @@ const Navbar: NextPage<navProps> = ({ title, desc }) => {
           {navList.map(({ text, href }) => (
             <li key={text}>
               <Link href={href}>
-                <a className="hover:text-indigo-600 p-1 transition hover:bg-indigo-300 active:text-indigo-300">
+                <a className="hover:text-slate-800 p-1 transition hover:bg-indigo-600 active:text-indigo-300">
                   {text}
                 </a>
               </Link>
