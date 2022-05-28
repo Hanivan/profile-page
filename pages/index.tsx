@@ -19,15 +19,13 @@ const Home: NextPage = () => {
         setData(data);
         setLoading(false);
       });
-    timeInHour > 6 && timeInHour < 18 ? setDark(false) : setDark(true);
+    timeInHour > 6 && timeInHour < 18 ? setDark(true) : setDark(false);
   }, []);
 
   return (
     <div
       className={`${
-        dark
-          ? "bg-slate-800 text-white transition duration-700"
-          : "bg-slate-300"
+        dark ? "bg-slate-800 text-white transition duration-700" : "bg-slate-50"
       }`}
     >
       <main className={`container mx-auto`}>
