@@ -30,7 +30,7 @@ const GithubInfo: NextPage<githubProps> = ({ data, isLoading }) => {
                   alt={data.login}
                   width={"200"}
                   height={"200"}
-                  className={"text-center"}
+                  className={"text-center rounded"}
                 ></Image>
               </div>
               <p>{data.login}</p>

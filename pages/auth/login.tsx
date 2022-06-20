@@ -19,7 +19,7 @@ const Login: NextPage = () => {
       <main className={`container mx-auto`}>
         <Navbar />
         <section className="grid place-items-center h-screen">
-          <div className="w-3/4 md:w-1/4 h-[25rem] border border-slate-700 p-8">
+          <div className="w-3/4 md:w-1/4 h-[25rem] border border-slate-700 shadow-xl p-8">
             <h4 className="text-xl font-bold text-center">Please Login</h4>
             <form action="" method="post">
               <div className="grid grid-col my-2">
@@ -54,7 +54,7 @@ const Login: NextPage = () => {
               </div>
               <button
                 type="submit"
-                className="border border-indigo-600 bg-indigo-600 rounded block w-full mt-5 p-1 hover:bg-indigo-700 font-semibold transition"
+                className="border border-indigo-600 bg-indigo-600 rounded block w-full mt-5 p-1 hover:bg-indigo-700 font-semibold transition text-slate-200"
               >
                 Login
               </button>

@@ -25,7 +25,9 @@ const Home: NextPage = () => {
   return (
     <div
       className={`${
-        dark ? "bg-slate-800 text-white transition duration-700" : "bg-slate-50"
+        dark
+          ? "bg-slate-800 text-white transition duration-700"
+          : "bg-slate-100"
       }`}
     >
       <main className={`container mx-auto`}>

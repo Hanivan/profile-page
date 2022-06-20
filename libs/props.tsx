@@ -9,3 +9,9 @@ export interface githubProps {
   data: typeof githubUserInfo;
   isLoading: boolean;
 }
+
+export interface linkButton {
+  href: string;
+  text: string;
+  dark?: boolean;
+}
